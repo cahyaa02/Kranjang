@@ -1,0 +1,314 @@
+<<<<<<< Updated upstream
+/* DESKTOP VIEW */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-image: linear-gradient(135deg, #20bf55, #01baef);
+}
+
+body::-webkit-scrollbar {
+    width: 17px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border: 4px solid black;
+    background-color: #20bf55;
+}
+
+::selection {
+    background-color: green;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    box-shadow: 0px 0px 7.5px 0.1px green;
+}
+
+button:active {
+    transform: translateY(5px);
+}
+
+nav,
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    max-width: 3rem;
+    margin-bottom: 0.5rem;
+    filter: brightness(1%);
+}
+
+.kranjang {
+    margin-left: 0.5rem;
+    font-family: 'Caveat', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    color: black;
+}
+
+.kranjang:hover {
+    color: white;
+}
+
+.nav-link {
+    margin-right: 1.5rem;
+    color: white !important;
+    border-bottom: solid 2px transparent;
+}
+
+.nav-link:hover {
+    color: green !important;
+    border-bottom: solid 2px green;
+}
+
+#login {
+    color: green !important;
+    border: solid 2px green;
+    border-radius: 5px;
+    margin-right: 0.75rem;
+}
+
+#login:hover {
+    background-color: transparent !important;
+}
+
+#signup {
+    background-color: green !important;
+    border: solid 2px green;
+    border-radius: 5px;
+}
+
+.bi-box-arrow-in-right,
+.bi-person-plus-fill {
+    padding-right: 0.5rem;
+}
+
+img {
+    -webkit-user-drag: none;
+}
+
+#assets {
+    max-width: 30rem;
+}
+
+.copyright {
+    margin-left: -3.5rem;
+}
+
+.GerakanGoGreen {
+    padding-top: 2.5rem;
+}
+
+#scrollToTop {
+    margin-right: 5rem;
+    font-size: 2.5rem;
+}
+
+#scrollToTop:hover {
+    transform: translateY(-15px);
+    color: green;
+}
+
+/* beranda.html */
+section {
+    padding-top: 5rem;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 576px) {
+    .navbar-toggler {
+        border: none;
+    }
+
+    .nav-link {
+        padding: 1rem;
+    }
+
+    #login {
+        margin: 1.5rem 0 0 4.5rem;
+    }
+
+    #signup {
+        float: right;
+        margin: -2.5rem 4.5rem 1.5rem 0;
+    }
+
+    .copyright {
+        margin: 0 0 -0.75rem 0;
+    }
+
+    #scrollToTop {
+        margin: 0 2.5rem -0.75rem 0;
+    }
+=======
+/* DESKTOP VIEW */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-image: linear-gradient(135deg, #20bf55, #01baef);
+}
+
+body::-webkit-scrollbar {
+    width: 17px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border: 4px solid black;
+    background-color: #20bf55;
+}
+
+::selection {
+    background-color: green;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    box-shadow: 0px 0px 7.5px 0.1px green;
+}
+
+button:active {
+    transform: translateY(5px);
+}
+
+nav,
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    max-width: 3rem;
+    margin-bottom: 0.5rem;
+    filter: brightness(1%);
+}
+
+.kranjang {
+    margin-left: 0.5rem;
+    font-family: 'Caveat', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    color: black;
+}
+
+.kranjang:hover {
+    color: white;
+}
+
+.nav-link {
+    margin-right: 1.5rem;
+    color: white !important;
+    border-bottom: solid 2px transparent;
+}
+
+.nav-link:hover {
+    color: green !important;
+    border-bottom: solid 2px green;
+}
+
+#login {
+    color: green !important;
+    border: solid 2px green;
+    border-radius: 5px;
+    margin-right: 0.75rem;
+}
+
+#login:hover {
+    background-color: transparent !important;
+}
+
+#signup {
+    background-color: green !important;
+    border: solid 2px green;
+    border-radius: 5px;
+}
+
+.bi-box-arrow-in-right,
+.bi-person-plus-fill {
+    padding-right: 0.5rem;
+}
+
+img {
+    -webkit-user-drag: none;
+}
+
+#assets {
+    max-width: 30rem;
+}
+
+.copyright {
+    margin-left: -3.5rem;
+}
+
+.GerakanGoGreen {
+    padding-top: 2.5rem;
+}
+
+#scrollToTop {
+    margin-right: 5rem;
+    font-size: 2.5rem;
+}
+
+#scrollToTop:hover {
+    transform: translateY(-15px);
+    color: green;
+}
+
+/* beranda.html */
+section {
+    padding-top: 5rem;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 576px) {
+    .navbar-toggler {
+        border: none;
+    }
+
+    .nav-link {
+        padding: 1rem;
+    }
+
+    #login {
+        margin: 1.5rem 0 0 4.5rem;
+    }
+
+    #signup {
+        float: right;
+        margin: -2.5rem 4.5rem 1.5rem 0;
+    }
+
+    .copyright {
+        margin: 0 0 -0.75rem 0;
+    }
+
+    #scrollToTop {
+        margin: 0 2.5rem -0.75rem 0;
+    }
+>>>>>>> Stashed changes
+}

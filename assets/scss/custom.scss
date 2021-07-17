@@ -1,0 +1,26 @@
+<<<<<<< Updated upstream
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+$primary: #0074d9;
+
+$theme-colors: ("primary": $primary);
+
+$custom-colors: ("custom-color": #20bf55);
+
+=======
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+$primary: #0074d9;
+
+$theme-colors: ("primary": $primary);
+
+$custom-colors: ("custom-color": #20bf55);
+
+>>>>>>> Stashed changes
+$theme-colors: map-merge($theme-colors, $custom-colors);
