@@ -6,6 +6,7 @@ html {
 body {
     font-family: 'Rubik', sans-serif !important;
     background-image: url(../img/background.png);
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -125,6 +126,7 @@ img {
 #scrollToTop {
     margin-right: 5rem;
     font-size: 2.5rem;
+    color: white;
 }
 
 #scrollToTop:hover {

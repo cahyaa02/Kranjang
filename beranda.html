@@ -11,10 +11,10 @@
     <meta name="description" content="Jelajahi berbagai pilihan produk daur ulang berkualitas di Kranjang." />
     <meta name="owner" content="Kranjang" />
     <meta name="robots" content="index, follow" />
-    
+
     <!-- Title pada Browser Tab -->
     <title>Kranjang</title>
-    
+
     <!-- Favicon pada Browser Tab -->
     <link rel="icon" href="assets/img/favicon.png?v=2" type="image/png" />
 
@@ -31,16 +31,13 @@
     </script>
 
     <!-- CSS Library (Animate On Scroll) -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" /> <!-- CDN Sources (.css) -->
 
     <!-- Embedded 3 External Fonts (Google Fonts) -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet" /> <!-- Logo -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet" /> <!-- Title & Button -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet" />
+    <!-- Title & Button -->
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet" /> <!-- Body -->
 
 </head>
@@ -84,7 +81,8 @@
         <div class="container">
             <div class="row text-center mb-3">
                 <div class="col">
-                    <h3>Jelajahi berbagai pilihan produk daur ulang berkualitas di <b>Kranjang</b>.</h3>
+                    <h3 data-aos="fade-up">Jelajahi berbagai pilihan produk daur ulang berkualitas di <b>Kranjang</b>.
+                    </h3>
                 </div>
             </div>
         </div>
@@ -94,12 +92,12 @@
         <div class="container">
             <div class="row text-center mb-3">
                 <div class="col">
-                    <h1>H1</h1>
+                    <h1 data-aos="fade-up">H1</h1>
                 </div>
             </div>
             <div class="d-flex align-items-start flex-column bd-highlight mb-3">
                 <div class="col-md-5 mb-2">
-                    <div>
+                    <div data-aos="fade-up-right">
                         <img src="assets/img/online_shopping.svg" class="card-img-top" id="assets"
                             alt="Online Shopping" />
                         <div>
@@ -113,7 +111,7 @@
             </div>
             <div class="d-flex align-items-end flex-column bd-highlight mb-3">
                 <div class="col-md-5 mb-2">
-                    <div>
+                    <div data-aos="fade-up-left">
                         <img src="assets/img/online_shopping.svg" class="card-img-top" id="assets"
                             alt="Online Shopping" />
                         <div>
@@ -127,7 +125,7 @@
             </div>
             <div class="d-flex align-items-start flex-column bd-highlight mb-3">
                 <div class="col-md-5 mb-2">
-                    <div>
+                    <div data-aos="fade-up-right">
                         <img src="assets/img/online_shopping.svg" class="card-img-top" id="assets"
                             alt="Online Shopping" />
                         <div>
@@ -141,7 +139,7 @@
             </div>
             <div class="d-flex align-items-end flex-column bd-highlight mb-3">
                 <div class="col-md-5 mb-2">
-                    <div>
+                    <div data-aos="fade-up-left">
                         <img src="assets/img/online_shopping.svg" class="card-img-top" id="assets"
                             alt="Online Shopping" />
                         <div>
@@ -177,4 +175,12 @@
         </div>
     </footer>
 
+    <!-- CSS Library (Animate On Scroll) -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- CDN Sources (.js) -->
+    <script>
+        AOS.init(); //Initialize AOS
+    </script>
+
 </body>
+
+</html>
