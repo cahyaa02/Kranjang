@@ -39,6 +39,7 @@ button:hover {
 
 button:active {
     transform: translateY(5px);
+    box-shadow: none !important;
 }
 
 nav,
