@@ -1,9 +1,6 @@
-/* DESKTOP VIEW */
-html {
-    scroll-behavior: smooth !important;
-}
-
+/* * DESKTOP VIEW * */
 body {
+    scroll-behavior: smooth !important;
     font-family: 'Rubik', sans-serif !important;
     background-image: url(../img/background.png);
     overflow-x: hidden;
@@ -140,8 +137,51 @@ section {
     padding-top: 5rem;
 }
 
-/* MOBILE VIEW */
+/* tentang.html */
+input:focus,
+textarea:focus {
+    border: solid 2px #20bf55 !important;
+    border-radius: 5px;
+    box-shadow: none !important;
+}
+
+#tombol {
+    background-color: green !important;
+    border: solid 2px green;
+    border-radius: 50px;
+    padding: 0.5rem 2.5rem;
+}
+
+.hyperlink {
+    color: black;
+}
+
+.hyperlink:hover {
+    color: #20bf55;
+}
+
+.bi-facebook {
+    color: #3b5998;
+}
+
+.bi-twitter {
+    color: #00aced;
+}
+
+.bi-instagram {
+    color: #C32AA3;
+}
+
+.bi-linkedin {
+    color: #007bb6;
+}
+
+/* * MOBILE VIEW * */
 @media (max-width: 576px) {
+body{
+    overflow-x: hidden;
+}
+
     .navbar-toggler {
         border: none;
     }
