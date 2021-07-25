@@ -1,8 +1,29 @@
-/* * DESKTOP VIEW * */
+/* ! DESKTOP VIEW ! */
+
+/* * Default Style * */
+/* Warna */
+:root {
+    --green: #20BF55 !important;
+    --blue: #01BAEF !important;
+    --white: #FFFFFF !important;
+    --black: #000000 !important;
+    --dark-green: #008000 !important;
+}
+
+/* Typography */
+:root {
+    --logo-font: 'Caveat', sans-serif !important;
+    --title-font: 'Montserrat', sans-serif !important;
+    --body-font: 'Rubik', sans-serif !important;
+    /* --big-font-size: 2rem;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: 0.938rem; */
+}
+
 body {
+    font-family: var(--body-font) !important;
+    background-image: url(../img/background.png) !important;
     scroll-behavior: smooth !important;
-    font-family: 'Rubik', sans-serif !important;
-    background-image: url(../img/background.png);
     overflow-x: hidden;
 }
 
@@ -51,7 +72,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: var(--title-font) !important;
 }
 
 .logo {
@@ -62,7 +83,7 @@ h6 {
 
 .kranjang {
     margin-left: 0.5rem;
-    font-family: 'Caveat', sans-serif;
+    font-family: var(--logo-font) !important;
     font-size: 2rem;
     letter-spacing: 0.1rem;
     color: black;
@@ -132,12 +153,12 @@ img {
     color: green;
 }
 
-/* beranda.html */
+/* * beranda.html * */
 section {
     padding-top: 5rem;
 }
 
-/* tentang.html */
+/* * tentang.html * */
 input:focus,
 textarea:focus {
     border: solid 2px #20bf55 !important;
@@ -169,18 +190,22 @@ textarea:focus {
 }
 
 .bi-instagram {
-    color: #C32AA3;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .bi-linkedin {
     color: #007bb6;
 }
 
-/* * MOBILE VIEW * */
+/* ! MOBILE VIEW ! */
 @media (max-width: 576px) {
-body{
-    overflow-x: hidden;
-}
+    body {
+        overflow-x: hidden;
+    }
 
     .navbar-toggler {
         border: none;
