@@ -3,22 +3,22 @@
 
 <head>
 
-    <!-- Meta Tags -->
+    <!-- * HTML Meta Tags * -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Title pada Browser Tab -->
+    <!-- * Title pada Browser Tab * -->
     <title>Tentang Kami</title>
 
-    <!-- Favicon pada Browser Tab -->
+    <!-- * Favicon pada Browser Tab * -->
     <link rel="icon" href="assets/img/favicon.png?v=2" type="image/png" />
 
-    <!-- Styling .css & Preprocessor .scss -->
+    <!-- * Styling .css & Preprocessor .scss * -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/scss/custom.scss" />
 
-    <!-- Framework CSS (Bootstrap v5) -->
+    <!-- * Framework CSS (Bootstrap v5) * -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
@@ -26,10 +26,10 @@
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
     </script>
 
-    <!-- CSS Library (Animate On Scroll) -->
+    <!-- * CSS Library (Animate On Scroll) * -->
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" /> <!-- CDN Sources (.css) -->
 
-    <!-- Embedded 3 External Fonts (Google Fonts) -->
+    <!-- * Embedded 3 External Fonts (Google Fonts) * -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet" /> <!-- Logo -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet" />
@@ -57,7 +57,7 @@
                         <a class="nav-link" href="tips.php">Tips</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="tentang.html">Tentang</a>
+                        <a class="nav-link active" href="tentang.html">Tentang</a>
                     </li>
                     <li class="nav-item">
                         <a href="login.php"><button class="btn btn-outline-primary" onclick="this.blur();" id="login"><i
@@ -72,17 +72,18 @@
             </div>
         </div>
     </nav>
+
     <section id="contact">
         <div class="container">
-            <div class="row text-center mb-5">
+            <div class="row text-center mb-5" data-aos="fade-up">
                 <div class="col">
-                    <h1>Kirim Pesan</h1>
+                    <h3>Kirim Pesan</h3>
                     <p>Untuk saran, kritik, ataupun pertanyaan lebih lanjut, silakan menghubungi kami melalui pengisian
                         formulir di bawah ini.
                     </p>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" data-aos="fade-up">
                 <div class="col-md-6">
                     <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
                         <b>Terima kasih, pesan Anda sudah kami terima.</b>
@@ -101,7 +102,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="pesan" class="form-label">Pesan</label>
-                            <textarea class="form-control" id="pesan" rows="3" name="pesan"
+                            <textarea class="form-control" id="pesan" rows="5" name="pesan"
                                 placeholder="Masukkan pesan"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary btn-kirim mb-5" id="tombol">
@@ -115,8 +116,8 @@
                     </form>
                 </div>
             </div>
-            <div class="row mt-5">
-                <p class="text-center">Ikuti Kami di:</p>
+            <div class="row mt-5" data-aos="fade-up"> 
+                <p class="text-center"> Ikuti Kami di:</p>
                 <div class="col-md-3 text-center">
                     <div>
                         <i class="bi bi-facebook"></i>&emsp;<a class="hyperlink"
@@ -166,7 +167,7 @@
         </div>
     </footer>
 
-    <!-- CSS Library (Animate On Scroll) -->
+    <!-- * CSS Library (Animate On Scroll) * -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- CDN Sources (.js) -->
     <script>
         AOS.init(); //Initialize AOS
