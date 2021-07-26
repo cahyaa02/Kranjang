@@ -7,6 +7,7 @@
     --blue: #01BAEF !important;
     --white: #FFFFFF !important;
     --black: #000000 !important;
+    --light-green: #f0fff3 !important;
     --dark-green: #008000 !important;
 }
 
@@ -22,9 +23,14 @@
 
 body {
     font-family: var(--body-font) !important;
-    background-image: url(../img/background.png) !important;
+    background-color: var(--light-green) !important;
     scroll-behavior: smooth !important;
-    overflow-x: hidden;
+}
+
+#particles-js {
+    height: 100%;
+    background-color: var(--light-green) !important;
+
 }
 
 body::-webkit-scrollbar {
